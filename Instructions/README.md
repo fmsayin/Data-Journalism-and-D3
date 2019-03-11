@@ -16,5 +16,5 @@ For example:  In West Virginia, while income is rather low but the percentage of
 6. There is a weak negative correlation between household Income and Lacks Healthcare. 
 7. There is a weak positive weak correlation between obese and poverty. 
 8. There is no correlation between age and obese.
-9. 3. There is a moderate correlation between obese and Household Income. 
+9. There is a moderate correlation between obese and Household Income. 
 
