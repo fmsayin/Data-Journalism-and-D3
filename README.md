@@ -1,46 +1,22 @@
 # Data-Journalism-and-D3
 
-Your Task
-Level 1: D3 Dabbler
-4-scatter
+Data Journalism and D3
 
-You need to create a scatter plot between two of the data variables such as Healthcare vs. Poverty or Smokers vs. Age.
+![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
-Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. You'll code this graphic in the app.js file of your homework directory—make sure you pull in the data from data.csv by using the d3.csv function. Your scatter plot should ultimately appear like the image at the top of this section.
+[https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml), but you are free to investigate a different data set. The current data set incldes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
 
-Include state abbreviations in the circles.
 
-Create and situate your axes and labels to the left and bottom of the chart.
+![4-scatter](Images/4-scatter.jpg)
 
-Note: You'll need to use python -m http-server to run the visualization. This will host the page at localhost:8000 in your web browser.
+1. There is a moderate negative correlation between Household Income and percentage smokes.
+For example:  In West Virginia, while income is rather low but the percentage of smokers is high.
+2. There is a weak positive correlation between age and smokes. 
+3. There is a positive moderate correlation between poverty and smokes. 
+4. There is a positive moderate correlation between Lacks Healthcare and poverty. 
+5. There is a weak negative correlation between age and Lacks Healthcare. 
+6. There is a weak negative correlation between household Income and Lacks Healthcare. 
+7. There is a weak positive weak correlation between obese and poverty. 
+8. There is no correlation between age and obese.
+9. 3. There is a moderate correlation between obese and Household Income. 
 
-Level 2: Impress the Boss (Optional Challenge Assignment)
-Why make a static graphic when D3 lets you interact with your data?
-
-7-animated-scatter
-
-1. More Data, More Dynamics
-You're going to include more demographics and more risk factors. Place additional labels in your scatter plot and give them click events so that your users can decide which data to display. Animate the transitions for your circles' locations as well as the range of your axes. Do this for two risk factors for each axis. Or, for an extreme challenge, create three for each axis.
-
-Hint: Try binding all of the .csv data to your circles. This will let you easily determine their x or y values when you click the labels.
-2. Incorporate d3-tip
-While the ticks on the axes allow us to infer approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Add tooltips to your circles and display each tooltip with the data that the user has selected. Use the d3-tip.js plugin developed by Justin Palmer—we've already included this plugin in your assignment directory.
-
-8-tooltip
-
-Check out David Gotz's example to see how you should implement tooltips with d3-tip.
-Assessment
-Your final product will be assessed on the following metrics:
-
-Completion of all steps in chosen level
-
-Coherency of scatter plot (labels, ticks)
-
-Visual attraction
-
-Professionalism
-
-Good luck!
-
-Copyright
-Data Boot Camp © 2018. All Rights Reserved.
