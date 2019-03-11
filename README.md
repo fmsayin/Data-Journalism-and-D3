@@ -8,12 +8,13 @@ https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml, but you a
 
 4-scatter
 
-There is a moderate negative correlation between Household Income and percentage smokes. For example: In West Virginia, while income is rather low but the percentage of smokers is high.
-There is a weak positive correlation between age and smokes.
-There is a positive moderate correlation between poverty and smokes.
-There is a positive moderate correlation between Lacks Healthcare and poverty.
-There is a weak negative correlation between age and Lacks Healthcare.
-There is a weak negative correlation between household Income and Lacks Healthcare.
-There is a weak positive weak correlation between obese and poverty.
-There is no correlation between age and obese.
-There is a moderate correlation between obese and Household Income.
+1. There is a moderate negative correlation between Household Income and percentage smokes. 
+For example: In West Virginia, while income is rather low but the percentage of smokers is high.
+2.There is a weak positive correlation between age and smokes.
+3.There is a positive moderate correlation between poverty and smokes.
+4.There is a positive moderate correlation between Lacks Healthcare and poverty.
+5.There is a weak negative correlation between age and Lacks Healthcare.
+6.There is a weak negative correlation between household Income and Lacks Healthcare.
+7.There is a weak positive weak correlation between obese and poverty.
+8.There is no correlation between age and obese.
+9.There is a moderate correlation between obese and Household Income.
